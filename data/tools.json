@@ -1,0 +1,111 @@
+{
+  "信息收集": [
+    {
+      "name": "paexec",
+      "description": "网络扫描工具",
+      "path": "tools/aaa/paexec.exe",
+      "type": "exe",
+      "version": "7.92",
+      "author": "Gordon Lyon",
+      "website": "https://nmap.org",
+      "usage": "用于端口扫描、服务识别、操作系统检测"
+    }
+  ],
+  "漏洞扫描": [
+    {
+      "name": "mimikatz",
+      "type": "exe",
+      "path": "tools/aaa/mimikatz.exe",
+      "launch_method": "cmd",
+      "parameters": "-h",
+      "version": "3.1.7",
+      "description": "开源漏洞扫描工具，用于快速验证和修复漏洞",
+      "usage": "afrog 是一款开源的漏洞扫描工具，专为网络安全从业者设计，用于快速验证和修复漏洞。它支持多种漏洞类型，包括 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取和命令执行等。afrog 以其高性能、低误报率和详细的 HTML 报告著称，同时支持 PoC（Proof of Concept）的定制和更新"
+    }
+  ],
+  "漏洞利用": [
+    {
+      "name": "BlueTeamTools",
+      "description": "蓝队分析研判工具箱",
+      "path": "tools/BlueTeamTools/BlueTeamToolsV2.16.jar",
+      "type": "jar",
+      "version": "1.46",
+      "author": "ABC_123",
+      "website": "https://github.com/abc123info/BlueTeamTools",
+      "usage": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。"
+    }
+  ],
+  "抓包工具": [
+    {
+      "name": "Dirsearch",
+      "description": "目录扫描工具",
+      "path": "tools/dirsearch/dirsearch.py",
+      "type": "py",
+      "version": "0.4.3",
+      "author": "maurosoria",
+      "website": "https://github.com/maurosoria/dirsearch",
+      "usage": "用于扫描目标网站的目录和文件",
+      "parameters": "-u {url}"
+    }
+  ],
+  "密码工具": [
+    {
+      "name": "网络配置助手",
+      "description": "网络配置工具",
+      "path": "tools/EHole/ehole.bat",
+      "type": "bat",
+      "version": "1.46",
+      "author": "ABC_123",
+      "website": "https://github.com/abc123info/BlueTeamTools",
+      "usage": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。"
+    }
+  ],
+  "社会工程": [
+    {
+      "name": "Burp Suite",
+      "description": "Web应用安全测试",
+      "path": "tools/BurpSuite/english.vbs",
+      "type": "vbs",
+      "version": "2023.1.2",
+      "author": "PortSwigger",
+      "website": "https://portswigger.net/burp",
+      "usage": "Web应用程序安全测试的集成平台"
+    }
+  ],
+  "取证分析": [
+    {
+      "name": "Hashcat",
+      "description": "密码破解工具",
+      "path": "tools/hashcat.exe",
+      "type": "exe",
+      "version": "6.2.6",
+      "author": "Hashcat Team",
+      "website": "https://hashcat.net",
+      "usage": "世界上最快的密码破解工具，支持多种哈希算法"
+    }
+  ],
+  "加密工具": [
+    {
+      "name": "Hashcat",
+      "description": "密码破解工具",
+      "path": "tools/hashcat.exe",
+      "type": "exe",
+      "version": "6.2.6",
+      "author": "Hashcat Team",
+      "website": "https://hashcat.net",
+      "usage": "世界上最快的密码破解工具，支持多种哈希算法"
+    }
+  ],
+  "网络工具": [
+    {
+      "name": "Hashcat",
+      "description": "密码破解工具",
+      "path": "tools/hashcat.exe",
+      "type": "exe",
+      "version": "6.2.6",
+      "author": "Hashcat Team",
+      "website": "https://hashcat.net",
+      "usage": "世界上最快的密码破解工具，支持多种哈希算法"
+    }
+  ]
+}
